@@ -10,6 +10,7 @@ public class Main {
             System.out.println("2. Ejercicio 2 - Control de Entradas a un Evento");
             System.out.println("3. Ejercicio 3 - Sistema de Gestión de Tareas Pendientes");
             System.out.println("4. Ejercicio 4 - Gestión de Inventario en una Tienda");
+            System.out.println("5. Ejercicio 5 - Sistema de Registro de Usuarios");
             System.out.println("0. Salir");
 
             int opcion = scanner.nextInt();
@@ -31,6 +32,10 @@ public class Main {
                     Ejercicio4 ejercicio4 = new Ejercicio4();
                     ejercicio4.gestionarInventario();
                     break;
+                case 5:
+                    Ejercicio5 ejercicio5 = new Ejercicio5();
+                    ejercicio5.registrarUsuarios();
+                    break;
                 case 0:
                     System.out.println("Saliendo...");
                     scanner.close();
@@ -41,4 +46,3 @@ public class Main {
         }
     }
 }
-
