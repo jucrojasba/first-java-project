@@ -17,6 +17,7 @@ public class Main {
             System.out.println("9. Ejercicio 9 - Sistema de Evaluación de Empleados");
             System.out.println("10. Ejercicio 10 - Aplicación de Encuestas de Satisfacción");
             System.out.println("11. Ejercicio 11 - Sistema de Inventario de Productos con Cantidades");
+            System.out.println("12. Ejercicio 12 - Sistema de Pago para Facturas");
             System.out.println("0. Salir");
 
             int opcion = scanner.nextInt();
@@ -65,6 +66,10 @@ public class Main {
                 case 11:
                     Ejercicio11 ejercicio11 = new Ejercicio11();
                     ejercicio11.gestionarInventario();
+                    break;
+                case 12:
+                    Ejercicio12 ejercicio12 = new Ejercicio12();
+                    ejercicio12.gestionarPagos();
                     break;
                 case 0:
                     System.out.println("Saliendo...");
