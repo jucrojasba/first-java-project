@@ -30,7 +30,74 @@ public class Main {
             scanner.nextLine(); // Consumir la nueva línea
 
             switch (opcion) {
-                // Otras opciones
+                case 1:
+                    Ejercicio1 ejercicio1 = new Ejercicio1();
+                    ejercicio1.verificarEdad();
+                    break;
+                case 2:
+                    Ejercicio2 ejercicio2 = new Ejercicio2();
+                    ejercicio2.gestionarEntradas();
+                    break;
+                case 3:
+                    Ejercicio3 ejercicio3 = new Ejercicio3();
+                    ejercicio3.gestionarTareas();
+                    break;
+                case 4:
+                    Ejercicio4 ejercicio4 = new Ejercicio4();
+                    ejercicio4.gestionarInventario();
+                    break;
+                case 5:
+                    Ejercicio5 ejercicio5 = new Ejercicio5();
+                    ejercicio5.registrarUsuarios();
+                    break;
+                case 6:
+                    Ejercicio6 ejercicio6 = new Ejercicio6();
+                    ejercicio6.reservarAsientos();
+                    break;
+                case 7:
+                    Ejercicio7 ejercicio7 = new Ejercicio7();
+                    ejercicio7.gestionarReservas();
+                    break;
+                case 8:
+                    Ejercicio8 ejercicio8 = new Ejercicio8();
+                    ejercicio8.gestionarEstudiantes();
+                    break;
+                case 9:
+                    Ejercicio9 ejercicio9 = new Ejercicio9();
+                    ejercicio9.evaluarEmpleados();
+                    break;
+                case 10:
+                    Ejercicio10 ejercicio10 = new Ejercicio10();
+                    ejercicio10.realizarEncuesta();
+                    break;
+                case 11:
+                    Ejercicio11 ejercicio11 = new Ejercicio11();
+                    ejercicio11.gestionarInventario();
+                    break;
+                case 12:
+                    Ejercicio12 ejercicio12 = new Ejercicio12();
+                    ejercicio12.gestionarPagos();
+                    break;
+                case 13:
+                    Ejercicio13 ejercicio13 = new Ejercicio13();
+                    ejercicio13.gestionarVotacion();
+                    break;
+                case 14:
+                    Ejercicio14 ejercicio14 = new Ejercicio14();
+                    ejercicio14.gestionarEmpleados();
+                    break;
+                case 15:
+                    Ejercicio15 ejercicio15 = new Ejercicio15();
+                    ejercicio15.gestionarReservas();
+                    break;
+                case 16:
+                    Ejercicio16 ejercicio16 = new Ejercicio16();
+                    ejercicio16.registrarGastos();
+                    break;
+                case 17:
+                    Ejercicio17 ejercicio17 = new Ejercicio17();
+                    ejercicio17.evaluarProyectos();
+                    break;
                 case 18:
                     Ejercicio18 ejercicio18 = new Ejercicio18();
                     ejercicio18.gestionarVehiculos();
