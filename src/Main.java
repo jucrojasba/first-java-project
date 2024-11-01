@@ -22,9 +22,11 @@ public class Main {
             System.out.println("14. Ejercicio 14 - Gestión de Empleados con Búsqueda");
             System.out.println("15. Ejercicio 15 - Sistema de Reservas para un Hotel");
             System.out.println("16. Ejercicio 16 - Control de Gastos Mensuales");
+            System.out.println("17. Ejercicio 17 - Sistema de Evaluación de Proyectos");
             System.out.println("0. Salir");
 
             int opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir la nueva línea
 
             switch (opcion) {
                 case 1:
@@ -90,6 +92,10 @@ public class Main {
                 case 16:
                     Ejercicio16 ejercicio16 = new Ejercicio16();
                     ejercicio16.registrarGastos();
+                    break;
+                case 17:
+                    Ejercicio17 ejercicio17 = new Ejercicio17();
+                    ejercicio17.evaluarProyectos();
                     break;
                 case 0:
                     System.out.println("Saliendo...");
