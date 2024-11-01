@@ -25,10 +25,11 @@ public class Main {
             System.out.println("17. Ejercicio 17 - Sistema de Evaluación de Proyectos");
             System.out.println("18. Ejercicio 18 - Sistema de Gestión de Vehículos");
             System.out.println("19. Ejercicio 19 - Sistema de Control de Inventario con Precios");
+            System.out.println("20. Ejercicio 20 - Sistema de Gestión de Reservas de Vuelos");
             System.out.println("0. Salir");
 
             int opcion = scanner.nextInt();
-            scanner.nextLine(); // Consumir la nueva línea
+            scanner.nextLine();
 
             switch (opcion) {
                 case 1:
@@ -101,11 +102,15 @@ public class Main {
                     break;
                 case 18:
                     Ejercicio18 ejercicio18 = new Ejercicio18();
-                    ejercicio18.gestionarFlota();
+                    ejercicio18.gestionarVehiculos();
                     break;
                 case 19:
                     Ejercicio19 ejercicio19 = new Ejercicio19();
                     ejercicio19.gestionarInventario();
+                    break;
+                case 20:
+                    Ejercicio20 ejercicio20 = new Ejercicio20();
+                    ejercicio20.reservarAsiento();
                     break;
                 case 0:
                     System.out.println("Saliendo...");
